@@ -8,7 +8,7 @@ Generates specified number of files with ASCII characters.
 :param size: size in bytes
 """
 
-NO_FILES = 5
+NO_FILES = 350
 FILE_SIZE = 500
 
 def main():
@@ -47,7 +47,6 @@ def read_file():
             with open(filename) as f:
                 print(f.readlines())
                 f.close()
-            time.sleep(1)
     pass
 
 def check_python_version():
