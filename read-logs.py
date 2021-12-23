@@ -8,7 +8,8 @@ Reads files from specified directory.
 """
 
 #LOG_DIR = '/apps/ProFile/EXPORT/lock_manager/J/LSW'
-LOG_DIR = '/home/jim/Projects/Gold/'
+# LOG_DIR = '/home/jim/Projects/Gold/'
+LOG_DIR = 'C:/Users/rr829468/Projects/Personal/Gold/'
 
 def main():
     print("Current working directory: ", LOG_DIR)
