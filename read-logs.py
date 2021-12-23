@@ -4,8 +4,7 @@ import sys, os, random, string, time
 
 """
 Reads files from specified directory.
-:param filename: unique filename
-:param size: size in bytes
+:param LOG_DIR: directory location of log files
 """
 
 #LOG_DIR = '/apps/ProFile/EXPORT/lock_manager/J/LSW'
