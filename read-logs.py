@@ -26,11 +26,15 @@ def main():
     pass
 
 def read_file(LOG_DIR):
-    for root, dirs, files in os.walk('.', topdown=False, onerror=None, followlinks=False):
-        for filename in files:
-            print(os.path.join(LOG_DIR, filename))
-            fd = os.open(filename, os.O_RDWR|os.O_CREAT)
-            fo = os.fdopen(fd, "r")
+    for filename in os.listdir():
+        print(filename)
+
+
+    # for root, dirs, files in os.walk('.', topdown=False, onerror=None, followlinks=False):
+    #     for filename in files:
+    #         print(os.path.join(LOG_DIR, filename))
+    #         fd = os.open(filename, os.O_RDWR|os.O_CREAT)
+    #         fo = os.fdopen(fd, "r")
 
 
     # for filename in os.listdir():
